@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-label="Roomly logo">
+  <defs>
+    <linearGradient id="roomlyBrand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#057a82" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <linearGradient id="roomlyGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8a8c8" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.5" />
+    </linearGradient>
+  </defs>
+  <rect width="480" height="480" rx="90" fill="#fff" />
+  <path d="M240 90c-66 0-120 54-120 120 0 66 120 210 120 210s120-144 120-210c0-66-54-120-120-120Z" fill="url(#roomlyGlow)" />
+  <path d="M240 108c-55 0-100 45-100 100 0 55 100 175 100 175s100-120 100-175c0-55-45-100-100-100Z" fill="url(#roomlyBrand)" />
+  <path d="M180 212l60-50 60 50v92a20 20 0 0 1-20 20h-80a20 20 0 0 1-20-20v-92Z" fill="#fff" />
+  <path d="M192 242h96v68H192z" fill="#ec4899" opacity="0.95" />
+  <path d="M220 164v22m40-22v22" stroke="#fff" stroke-width="14" stroke-linecap="round" />
+  <path d="M168 204l56-34 56 34" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M170 292c0 32 28 54 50 54s50-22 50-54" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round" />
+  <text x="240" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="42" fill="#0f172a" font-weight="800">Roomly</text>
+</svg>
